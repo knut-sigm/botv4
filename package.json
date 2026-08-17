@@ -1,0 +1,39 @@
+{
+  "name": "knut-xmd-v4-server",
+  "version": "4.0.0",
+  "description": "Knut XMD v4 — bot mono-session pour serveur Node.js",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Khost",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "baileys": "7.0.0-rc14",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "fs-extra": "^11.1.1",
+    "nodemailer": "^6.9.14",
+    "node-fetch": "^3.3.2",
+    "pino": "^9.6.0",
+    "@hapi/boom": "^10.0.1",
+    "axios": "^1.8.4",
+    "chalk": "^5.4.1",
+    "form-data": "^4.0.2",
+    "mime-types": "^3.0.1",
+    "moment-timezone": "^0.5.48",
+    "mumaker": "2.0.0",
+    "node-gtts": "^2.0.2",
+    "node-webpmux": "3.2.1",
+    "pino-pretty": "^13.0.0",
+    "ruhend-scraper": "10.0.3",
+    "wa-sticker-formatter": "^4.4.4",
+    "yt-search": "^2.13.1",
+    "ytdl-core": "^4.11.5"
+  }
+}
